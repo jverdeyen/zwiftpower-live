@@ -1,20 +1,21 @@
 {
-
   "manifest_version": 2,
   "name": "Zwift Power Live",
   "version": "0.1",
-
   "description": "Makes it easy to follow Zwift Power LIVE data while racing ur heart out on Zwift.",
-
   "icons": {
-    "48": "icons/icon-48.png"
+    "48": "icons/icon.png",
+    "96": "icons/icon@2x.png"
   },
-
-  "content_scripts": [
-    {
-      "matches": ["*://*.mozilla.org/*"],
-      "js": ["zwiftpower-live.js"]
-    }
+  "browser_action": {
+    "default_icon": "icons/icon.png",
+    "default_title": "Zwift Power Live!"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "activeTab",
+    "contextMenus"
   ]
-
 }

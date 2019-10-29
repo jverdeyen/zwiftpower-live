@@ -1,0 +1,31 @@
+{
+  "name": "zwiftpower-live-webextension",
+  "title": "Zwift Power Live WebExtension",
+  "version": "0.1",
+  "description": "Makes it easy to follow Zwift Power LIVE data while racing ur heart out on Zwift",
+  "devDependencies": {
+    "eslint": "^4.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jverdeyen/zwiftpower-live.git"
+  },
+  "scripts": {
+    "test": "eslint .",
+    "lint": "eslint ."
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jverdeyen/zwiftpower-live/issues"
+  },
+  "keywords": [
+    "webextensions",
+    "webextensions-apis",
+    "mdn",
+    "firefox",
+    "mozilla"
+  ],
+  "dependencies": {
+    "babel-eslint": "^7.2.3"
+  }
+}
